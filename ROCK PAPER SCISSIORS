@@ -1,0 +1,12 @@
+import random
+user_action = input("Enter a choice (rock, paper, scissors): ")
+three_actions = ["rock", "paper", "scissors"]
+pc_action = random.choice(three_actions)
+if user_action == pc_action:
+    print("Both players selected. It's a tie!")
+elif user_action == "rock":
+   if pc_action == "scissors":
+        print("Rock You win!")
+else:
+        print("Paper You won.")
+        print("scissors You won.")  
