@@ -1,0 +1,9 @@
+def vowles_check():
+    string=input("Enter something:")
+    vowles="aeiouAEIOU"
+    count=0
+    for i in string:
+        if i in vowles:
+            count+=1
+    print("the total vowles present in the string:",count)
+vowles_check()
